@@ -1,5 +1,5 @@
 namespace PAM_Astronomy.Views;
-
+/*
 [QueryProperty(nameof(AstroName), "astroName")]
 public partial class AstronomicalBodyView : ContentPage
 {
@@ -38,4 +38,4 @@ public partial class AstronomicalBodyView : ContentPage
             _ => throw new ArgumentException()
         };
     }
-}
+}*/
