@@ -14,7 +14,7 @@
             </Style>
         </ResourceDictionary>
     </ContentPage.Resources>
-    
+    <VerticalStackLayout>
     <Grid RowSpacing="10" ColumnSpacing="5" Padding="5" >
         <Grid.RowDefinitions>
             <RowDefinition Height="auto" />
@@ -46,6 +46,13 @@
         <Label x:Name="lblPhaseText2" Grid.Column="1" Grid.Row="2" FontAttributes="Bold" FontSize="Medium" />
         <Label x:Name="lblPhaseText3" Grid.Column="2" Grid.Row="2" FontAttributes="Bold" FontSize="Medium" />
         <Label x:Name="lblPhaseText4" Grid.Column="3" Grid.Row="2" FontAttributes="Bold" FontSize="Medium" />
-
-    </Grid>
+        <Label
+            Text="View exibindo conteúdo"/>
+        </Grid>
+        <Label
+            Text="exbindo conteúdo"/>
+    </VerticalStackLayout>
+    <!--
+    
+    -->
 </ContentPage>

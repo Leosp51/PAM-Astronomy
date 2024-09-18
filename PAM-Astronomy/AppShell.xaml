@@ -5,7 +5,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:PAM_Astronomy.Views"
     Shell.FlyoutBehavior="Flyout"
-    FlyoutIcon="dotnet_bot.png"
+    FlyoutIcon="universe.png"
     Title="PAM_Astronomy">
     
 
@@ -13,17 +13,19 @@
         <Grid 
             HeightRequest="100"
             BackgroundColor="DarkSlateBlue">
-            <Image Source="dotnet_bot.png"/>
+            <Image Source="universe.png"/>
         </Grid>
     </Shell.FlyoutHeader>
 
     <FlyoutItem Title="Astronomy" Icon="dotnet_bot.png">
-        <ShellContent Title="Moon" Icon="dotnet_bot.png" ContentTemplate="{DataTemplate local:MoonPhaseView}"/>
+        <ShellContent Title="Moon" Icon="moon.png" ContentTemplate="{DataTemplate local:MoonPhaseView}"/>
         <ShellContent Title="Daylight" ContentTemplate="{DataTemplate local:SunriseView}"/>
-        <ShellContent Title="Astronomical Bodies" ContentTemplate="{DataTemplate local:AstronomicalBodiesView}"/>
+        <ShellContent Title="Astronomical Bodies" Icon="dotnet_bot.png" ContentTemplate="{DataTemplate local:AstronomicalBodiesView}"/>
 
     </FlyoutItem>
-    <FlyoutItem Title="About" Icon="dotnet_bot.png">
-        <ShellContent Title="About" ContentTemplate="{DataTemplate local:AboutPageView}" Route="AboutPageView"/>
+    <FlyoutItem Title="About" Icon="question_icon.png">
+        <ShellContent Title="About"
+                      ContentTemplate="{DataTemplate local:AboutPageView}" Route="AboutPageView"
+                      />
     </FlyoutItem>
 </Shell>
