@@ -7,7 +7,7 @@
     Shell.FlyoutBehavior="Flyout"
     FlyoutIcon="universe.png"
     Title="PAM_Astronomy">
-    
+
 
     <Shell.FlyoutHeader>
         <Grid 
@@ -17,10 +17,10 @@
         </Grid>
     </Shell.FlyoutHeader>
 
-    <FlyoutItem Title="Astronomy" Icon="dotnet_bot.png">
-        <ShellContent Title="Moon" Icon="moon.png" ContentTemplate="{DataTemplate local:MoonPhaseView}"/>
-        <ShellContent Title="Daylight" ContentTemplate="{DataTemplate local:SunriseView}"/>
-        <ShellContent Title="Astronomical Bodies" Icon="dotnet_bot.png" ContentTemplate="{DataTemplate local:AstronomicalBodiesView}"/>
+    <FlyoutItem Title="Astronomia" Icon="solar_sistem.png">
+        <ShellContent Title="Lua" Icon="moon.png" ContentTemplate="{DataTemplate local:MoonPhaseView}"/>
+        <ShellContent Title="Luz Solar" Icon="the_sun.png" ContentTemplate="{DataTemplate local:SunriseView}"/>
+        <ShellContent Title="Corpos Celestes" Icon="universe.png" ContentTemplate="{DataTemplate local:AstronomicalBodiesView}"/>
 
     </FlyoutItem>
     <FlyoutItem Title="About" Icon="question_icon.png">

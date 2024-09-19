@@ -37,7 +37,7 @@ public partial class AstronomicalBodyView : ContentPage
             "earth" => SolarSystemData.Earth,
             "moon" => SolarSystemData.Moon,
             "sun" => SolarSystemData.Sun,
-            "" => throw new ArgumentException()
+            _ => throw new ArgumentException(),
         };
     }
 }

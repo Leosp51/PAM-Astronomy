@@ -15,42 +15,39 @@
         </ResourceDictionary>
     </ContentPage.Resources>
     <VerticalStackLayout>
-    <Grid RowSpacing="10" ColumnSpacing="5" Padding="5" >
-        <Grid.RowDefinitions>
-            <RowDefinition Height="auto" />
-            <RowDefinition Height="auto" />
-            <RowDefinition Height="auto" />
-            <RowDefinition Height="*" />
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="auto" />
-            <ColumnDefinition Width="auto" />
-            <ColumnDefinition Width="auto" />
-            <ColumnDefinition Width="auto" />
-        </Grid.ColumnDefinitions>
+        <Grid RowSpacing="10" ColumnSpacing="5" Padding="5" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto" />
+                <ColumnDefinition Width="auto" />
+                <ColumnDefinition Width="auto" />
+                <ColumnDefinition Width="auto" />
+            </Grid.ColumnDefinitions>
 
-        <Image Source="starfield.png" Aspect="AspectFill" Grid.RowSpan="4" Grid.ColumnSpan="4" />
+            <Image Source="starfield.png" Aspect="AspectFill" Grid.RowSpan="4" Grid.ColumnSpan="4" />
 
-        <StackLayout Grid.Row="0" Grid.ColumnSpan="4">
-            <Label x:Name="lblDate" FontAttributes="Bold" />
-            <Label x:Name="lblMoonPhaseIcon" FontSize="96" />
-            <Label x:Name="lblMoonPhaseText" FontAttributes="Bold" />
-        </StackLayout>
+            <StackLayout Grid.Row="0" Grid.ColumnSpan="4">
+                <Label x:Name="lblDate" FontAttributes="Bold" />
+                <Label x:Name="lblMoonPhaseIcon" FontSize="96" />
+                <Label x:Name="lblMoonPhaseText" FontAttributes="Bold" />
+            </StackLayout>
 
-        <Label x:Name="lblPhaseIcon1" Grid.Column="0" Grid.Row="1" FontSize="48" />
-        <Label x:Name="lblPhaseIcon2" Grid.Column="1" Grid.Row="1" FontSize="48" />
-        <Label x:Name="lblPhaseIcon3" Grid.Column="2" Grid.Row="1" FontSize="48" />
-        <Label x:Name="lblPhaseIcon4" Grid.Column="3" Grid.Row="1" FontSize="48" />
+            <Label x:Name="lblPhaseIcon1" Grid.Column="0" Grid.Row="1" FontSize="48" />
+            <Label x:Name="lblPhaseIcon2" Grid.Column="1" Grid.Row="1" FontSize="48" />
+            <Label x:Name="lblPhaseIcon3" Grid.Column="2" Grid.Row="1" FontSize="48" />
+            <Label x:Name="lblPhaseIcon4" Grid.Column="3" Grid.Row="1" FontSize="48" />
 
-        <Label x:Name="lblPhaseText1" Grid.Column="0" Grid.Row="2" FontAttributes="Bold" FontSize="Medium" />
-        <Label x:Name="lblPhaseText2" Grid.Column="1" Grid.Row="2" FontAttributes="Bold" FontSize="Medium" />
-        <Label x:Name="lblPhaseText3" Grid.Column="2" Grid.Row="2" FontAttributes="Bold" FontSize="Medium" />
-        <Label x:Name="lblPhaseText4" Grid.Column="3" Grid.Row="2" FontAttributes="Bold" FontSize="Medium" />
-        <Label
-            Text="View exibindo conteúdo"/>
+            <Label x:Name="lblPhaseText1" Grid.Column="0" Grid.Row="2" FontAttributes="Bold" FontSize="Medium" />
+            <Label x:Name="lblPhaseText2" Grid.Column="1" Grid.Row="2" FontAttributes="Bold" FontSize="Medium" />
+            <Label x:Name="lblPhaseText3" Grid.Column="2" Grid.Row="2" FontAttributes="Bold" FontSize="Medium" />
+            <Label x:Name="lblPhaseText4" Grid.Column="3" Grid.Row="2" FontAttributes="Bold" FontSize="Medium" />
+            
         </Grid>
-        <Label
-            Text="exbindo conteúdo"/>
     </VerticalStackLayout>
     <!--
     

@@ -6,6 +6,6 @@
     <VerticalStackLayout>
         <Label Text="Version 1.0.0" />
         <Label Text="Sunrise/Sunset data provided by: https://sunrise-sunset.org/api" />
-        <Label Text="Icons from Font Awesome" />
+        <Label Text="App criado em aulas de Programação Mobile II na Etec Horácio Augusto da Silveira" />
     </VerticalStackLayout>
 </ContentPage>
